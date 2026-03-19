@@ -1,0 +1,306 @@
+/*
+ * Put project specific base styles here.
+ *
+ * Note: The proect does not load this file.
+ *       You will need to load these using scripts.js.
+ *
+ *
+ */
+:root {
+  --color-quote: #367ea8;
+  --page-top-spacing: 128px;
+
+  /* Keep this them in sync with 800px media queries below */
+  --grid-container-width: 800px;
+
+  --code-font-size: 85%;
+}
+
+body header .gnav-wrapper a.gnav-brand {
+  color: #EB1000;
+}
+
+/* progressive section appearance */
+main .section[data-section-status='loading'],
+main .section[data-section-status='initialized'],
+main > div,
+main .section[data-status='decorated'] {
+  display: none;
+}
+
+/* Add correct font family for Consonant Cards  */
+.milo-card-wrapper .consonant-Wrapper,
+.milo-card-wrapper .consonant-OneHalfCard-text,
+.milo-card-wrapper .consonant-OneHalfCard-title {
+  font-family: var(--body-font-family) !important;
+}
+
+.xxl-spacing > .text.blog-no-spacing {
+  padding-top: 0px;
+}
+
+
+.video-caption,
+figcaption {
+ margin-top: 0;
+ text-align: center;
+}
+
+main .section:first-of-type:not([class*='-spacing']) > .content:first-of-type {
+  margin-top: var(--page-top-spacing);
+}
+
+main .section:first-of-type:not([class*='-spacing']) > .featured-article:first-child {
+  margin-top: var(--page-top-spacing);
+  margin-bottom: 64px;
+}
+
+.author-header + .article-feed,
+.author-header + .content + .article-feed {
+  background: #fff;
+}
+
+.author-header-wrapper .author-header + .content {
+  max-width: 800px;
+  text-align: initial;
+}
+
+/* Disable Featured Article */
+.hide-feat-img .article-feature-image {
+  display: none;
+}
+
+/*
+ Text block quote styles
+*/
+
+main .inset.text-block .foreground > div {
+  padding-left: var(--spacing-l);
+}
+
+main .inset.text-block .foreground::before {
+  position: unset;
+}
+
+.text-block.inset.quote blockquote {
+ margin: 0 0 16px 0;
+ color: var(--color-quote);
+ font-weight: var(--type-heading-all-weight);
+ line-height: var(--type-heading-base-lh);
+ font-size: var(--type-heading-l-size);
+}
+
+.text-block.inset.quote .foreground {
+ border-left: 3px solid var(--color-quote);
+}
+
+.text-block.inset.quote picture img {
+ height: 96px;
+ width: 96px;
+ object-fit: cover;
+ border-radius: 100%;
+ margin-bottom: 40px;
+}
+
+/* 
+ * Modal
+*/
+
+.dialog-modal video {
+  max-height: 700px;
+}
+
+/* 
+ * Topics Header/Marquee
+*/
+
+.marquee.mini {
+  min-height: 100px;
+}
+
+.marquee.mini .foreground {
+  padding: 0;
+}
+
+.marquee.mini .foreground.container {
+  width: 100%;
+}
+
+.marquee.mini .foreground.container .text {
+  background-image: rgba(0 0 0 / 80%);
+  background-image: linear-gradient(to right, rgba(0 0 0 / 80%), rgba(0 0 0 / 0%));
+  box-sizing: border-box;
+  max-width: none;
+  margin: 2rem 0;
+  padding: 2rem;
+  width: 100%;
+}
+
+main .embed-instagram {
+  margin: 64px auto;
+}
+
+main .embed-instagram,
+main .embed-instagram iframe.instagram-media {
+  background: white;
+  height: 502px;
+  width: 320px;
+}
+
+.columns.blog-social-links > .row > .col {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.columns.blog-social-links.center > .row > .col {
+  justify-content: center;
+}
+
+.columns.blog-social-links > .row > .col p {
+  margin: 0;
+}
+
+.columns.blog-social-links > .row > .col p a {
+  padding: 5px;
+  display: block;
+}
+
+.columns.blog-social-links > .row > .col p a:hover,
+.columns.blog-social-links > .row > .col p a:focus {
+  opacity: .7;
+}
+
+/*
+ * Footer styles
+*/
+
+main + footer .feds-regionPicker:hover {
+  color: var(--color-gray-500);
+  border-color: var(--color-gray-500);
+  fill: var(--color-gray-500);
+}
+
+main + footer .footer-info {
+  margin-top: 20px;
+}
+
+main + footer .footer-region-text {
+  font-size: var(--type-detail-m-size);
+}
+
+main + footer .footer-region .fragment,
+main + footer .feds-regionPicker-wrapper .fragment {
+  min-width: 165px;
+}
+
+main + footer .feds-regionPicker-wrapper > .fragment {
+  max-height: none;
+  border: 1px solid #D4D4D4;
+  box-sizing: border-box;
+}
+
+main + footer .footer-region-button.inline-dialog-active + .fragment p,
+main + footer .feds-regionPicker + .fragment p {
+  font-size: var(--type-detail-l-size);
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+main + footer .footer-region-button.inline-dialog-active + .fragment p:first-child,
+main + footer .feds-regionPicker + .fragment p:first-child {
+  margin-top: 0;
+}
+
+main + footer .feds-regionPicker-wrapper > .fragment a {
+  line-height: 1;
+  padding: 0;
+  color: var(--color-gray-700);
+}
+
+main + footer .feds-regionPicker-wrapper > .fragment a:hover {
+  color: var(--color-gray-500);
+  background: none;
+}
+
+main + footer .footer-region-button.inline-dialog-active + .fragment p strong > a,
+main + footer .feds-regionPicker + .fragment p strong > a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main + footer .footer-region-button.inline-dialog-active + .fragment p strong > a::after,
+main + footer .feds-regionPicker-wrapper > .fragment p strong > a::after {
+  content: ' ';
+  display: block;
+  margin: 0 2px;
+  width: 6px;
+  height: 16px;
+  border: solid var(--color-info-accent);
+  border-width: 0 1px 1px 0;
+  transform: rotate(45deg);
+}
+
+@media (min-width: 600px) {
+  main .embed-instagram,
+  main .embed-instagram iframe.instagram-media {
+    width: 550px;
+    height: 784px;
+ }
+
+  .columns.blog-social-links > .row > .col {
+    flex-flow: row wrap;
+  }
+
+  .columns.blog-social-links > .row > .col p {
+    margin: revert;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .tab-content .section[class*='grid-width-'] {
+    justify-content: center;
+    padding-left: inherit;
+    padding-right: inherit;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  main .section .content {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  div .tags {
+    max-width: 100%;
+    margin: auto 2%;
+  }
+  div .tags p {
+    justify-content: center;
+  }
+  div .milo-video {
+    margin-bottom: 2em;
+  }
+}
+
+/** the max-height that Milo sets is too low for some of our images */
+.figure .figure img {
+  max-width: 100%;
+  max-height: 800px !important;
+}
+
+/* Homepage section titles */
+#more-articles, #all-articles, #top-stories, #top-stories +p {
+  text-align: center;
+}
+
+pre {
+  font-size: var(--code-font-size);
+}
+
+.centerHeading {
+  text-align: center;
+}
