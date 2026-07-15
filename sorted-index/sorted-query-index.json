@@ -288,7 +288,7 @@
       "tags": "[\"adobe-express\",\"adobe-express-add-ons\",\"adobe-express-addons\",\"add-on-development\",\"extensibility\",\"mcp\",\"mcp-server\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1778169588",
+      "lastModified": "1784146931",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1773619200",
       "sortDate": "2026-03-16",
@@ -301,7 +301,7 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "",
-      "importer": ""
+      "importer": "v15june25"
     },
     {
       "path": "/en/publish/2026/03/how-the-experience-modernization-agent-migrates-sites-to-edge-delivery-services",
@@ -2380,5 +2380,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-15T14:55:08.107Z"
+  "generatedAt": "2026-07-15T22:04:43.500Z"
 }
