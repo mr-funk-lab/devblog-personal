@@ -1,8 +1,33 @@
 {
-  "total": 95,
+  "total": 96,
   "offset": 0,
-  "limit": 95,
+  "limit": 96,
   "data": [
+    {
+      "path": "/en/publish/2026/drafts/build-adobe-express-add-ons-faster-with-agent-skills",
+      "image": "/en/publish/2026/drafts/media_10f5f560e80931491ec2df3a67d7cea24c0e8ed2d.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "Build Adobe Express Add-ons Faster with Agent Skills",
+      "author": "Geoffrey Nwachukwu",
+      "description": "Turn your AI assistant into a specialized Adobe Express architect. A Developer Champion's open-source Agent Skills collection — how it works and how to install it.",
+      "tags": "[\"AI\",\"skills\",\"agentic\",\"developer tools\"]",
+      "imageAlt": "",
+      "robots": "",
+      "lastModified": "1784574630",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1784592000",
+      "sortDate": "2026-07-21",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "Adobe Express",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "July 2026",
+      "newsletterPublished": "",
+      "importer": ""
+    },
     {
       "path": "/en/publish/2026/07/large-document-support-is-coming-to-adobe-express-what-add-on-developers-need-to-know",
       "image": "/en/publish/2026/07/media_17daf9c72b07ae91b31d646fb80d012cae5b1e5bd.png?width=1200&format=pjpg&optimize=medium",
@@ -2405,5 +2430,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-20T15:52:44.597Z"
+  "generatedAt": "2026-07-21T11:49:13.302Z"
 }
