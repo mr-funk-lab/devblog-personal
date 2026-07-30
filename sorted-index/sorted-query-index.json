@@ -1,8 +1,33 @@
 {
-  "total": 110,
+  "total": 111,
   "offset": 0,
-  "limit": 110,
+  "limit": 111,
   "data": [
+    {
+      "path": "/en/publish/2026/07/uxp-changelog-and-support-matrix",
+      "image": "/en/publish/2026/07/media_15f52e6ad8ce092233aed463d194cbee7ec7e0bf5.png?width=1200&format=pjpg&optimize=medium",
+      "date": "",
+      "title": "UXP Changelog and Product Support Matrix",
+      "author": "Kasi Viswanathan K",
+      "description": "Adobe's Unified eXtensibility Platform (UXP) continues to evolve with every release, bringing new capabilities, closer alignment with web standards, and important stability fixes to plugin ...",
+      "tags": "[\"UXP\",\"Changelog\"]",
+      "imageAlt": "New and old employees on the DevEx team",
+      "robots": "",
+      "lastModified": "1785364525",
+      "Removed from Medium?": "",
+      "sortDateTimestamp": "1785283200",
+      "sortDate": "2026-07-29",
+      "sortDateTimestampLegacy": "",
+      "updatedDate": "",
+      "adobeCloud": "Creative Cloud",
+      "adobeApp": "InDesign, Photoshop, Premiere",
+      "mediaUrl": "",
+      "metaTitle": "",
+      "shortDescription": "",
+      "newsletterPlanned": "July 2026",
+      "newsletterPublished": "",
+      "importer": ""
+    },
     {
       "path": "/en/publish/2026/drafts/build-adobe-express-add-ons-faster-with-agent-skills",
       "image": "/en/publish/2026/drafts/media_10f5f560e80931491ec2df3a67d7cea24c0e8ed2d.png?width=1200&format=pjpg&optimize=medium",
@@ -63,7 +88,7 @@
       "tags": "[\"add-on\",\"extensibility\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1785159452",
+      "lastModified": "1785366163",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1782777600",
       "sortDate": "2026-06-30",
@@ -74,7 +99,7 @@
       "mediaUrl": "",
       "metaTitle": "",
       "shortDescription": "",
-      "newsletterPlanned": "July  2026",
+      "newsletterPlanned": "August  2026",
       "newsletterPublished": "",
       "importer": ""
     },
@@ -2780,5 +2805,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-29T07:45:10.305Z"
+  "generatedAt": "2026-07-30T00:02:55.246Z"
 }
