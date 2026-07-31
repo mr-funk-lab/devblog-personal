@@ -38,7 +38,7 @@
       "tags": "[\"UXP\",\"Changelog\",\"Plugin Development\"]",
       "imageAlt": "New and old employees on the DevEx team",
       "robots": "",
-      "lastModified": "1785490231",
+      "lastModified": "1785496004",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1785283200",
       "sortDate": "2026-07-29",
@@ -63,7 +63,7 @@
       "tags": "[\"add-on\",\"extensibility\",\"Large Document Support\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1785492970",
+      "lastModified": "1785494951",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1784505600",
       "sortDate": "2026-07-20",
@@ -88,7 +88,7 @@
       "tags": "[\"Add-on\",\"extensibility\",\"dark mode\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1785493331",
+      "lastModified": "1785495154",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1782777600",
       "sortDate": "2026-06-30",
@@ -2780,5 +2780,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-07-31T10:42:38.370Z"
+  "generatedAt": "2026-07-31T12:57:58.140Z"
 }
