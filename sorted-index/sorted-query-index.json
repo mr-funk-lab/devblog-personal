@@ -13,13 +13,13 @@
       "tags": "[\"adobe-commerce\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1789026709",
+      "lastModified": "1789043823",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1788912000",
       "sortDate": "2026-09-09",
       "sortDateTimestampLegacy": "",
       "updatedDate": "",
-      "adobeCloud": "",
+      "adobeCloud": "Experience Cloud",
       "adobeApp": "Adobe Commerce",
       "mediaUrl": "",
       "metaTitle": "",
@@ -2930,5 +2930,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-09-10T08:49:22.366Z"
+  "generatedAt": "2026-09-10T13:26:21.409Z"
 }
