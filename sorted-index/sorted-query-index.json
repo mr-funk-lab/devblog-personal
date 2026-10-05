@@ -1,7 +1,7 @@
 {
-  "total": 122,
+  "total": 121,
   "offset": 0,
-  "limit": 122,
+  "limit": 121,
   "data": [
     {
       "path": "/en/publish/2026/10/build-time-wasm-module-splitting-ship-more-features-without-growing-your-startup-bundle",
@@ -51,31 +51,6 @@
       "shortDescription": "",
       "newsletterPlanned": "",
       "newsletterPublished": "October 2026",
-      "importer": ""
-    },
-    {
-      "path": "/en/publish/2026/09/build-time-wasm-module-splitting-ship-more-features-without-growing-your-startup-bundle",
-      "image": "/en/publish/2026/09/media_161ecd6254cd7304cc63217bf76f934447bd4989c.png?width=1200&format=pjpg&optimize=medium",
-      "date": "",
-      "title": "Build-Time Wasm Module Splitting: Ship More Features Without Growing Your Startup Bundle",
-      "author": "Sumit Kumar",
-      "description": "Cut your WebAssembly startup load without repeated profiling. See the build-time technique that keeps your Wasm module lean as your app grows.",
-      "tags": "[\"pdf\",\"webassembly\",\"cpp\",\"performance\",\"developer tools\"]",
-      "imageAlt": "",
-      "robots": "",
-      "lastModified": "1790859316",
-      "Removed from Medium?": "",
-      "sortDateTimestamp": "1790553600",
-      "sortDate": "2026-09-28",
-      "sortDateTimestampLegacy": "",
-      "updatedDate": "",
-      "adobeCloud": "Document Cloud",
-      "adobeApp": "Acrobat",
-      "mediaUrl": "",
-      "metaTitle": "",
-      "shortDescription": "",
-      "newsletterPlanned": "",
-      "newsletterPublished": "September 2026",
       "importer": ""
     },
     {
@@ -288,7 +263,7 @@
       "tags": "[\"add-ons\",\"extensibility\",\"dark mode\"]",
       "imageAlt": "",
       "robots": "",
-      "lastModified": "1786981856",
+      "lastModified": "1791182748",
       "Removed from Medium?": "",
       "sortDateTimestamp": "1782777600",
       "sortDate": "2026-06-30",
@@ -3080,5 +3055,5 @@
     "importer"
   ],
   ":type": "sheet",
-  "generatedAt": "2026-10-01T16:09:47.343Z"
+  "generatedAt": "2026-10-05T08:40:29.522Z"
 }
